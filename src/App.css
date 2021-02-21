@@ -1,17 +1,23 @@
 html {
   background-image: url("/src/image/photo_20@31-10-2020_10-59-25.jpg");
   background-size: cover;
+  font-family: "Roboto";
+}
+
+h1 {
+  text-align: center;
 }
 
 .App {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
 }
 
 img {
   padding: 2%;
   width: min-content;
   height: min-content;
-  max-height: 1000px;
   margin: auto;
 }
