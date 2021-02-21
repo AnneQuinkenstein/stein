@@ -1,5 +1,5 @@
 import "./App.css";
-import Video from "./image/kartons021.mp4";
+// import Video from "./image/kartons021.mp4";
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <img src="/img/kartons026.jpg" alt="image" />
       <img src="/img/kartons027.jpg" alt="image" />
       <img src="/img/kartons021.mp4" alt="image" />
-      <video controls autostart autoPlay src={Video} type="video/mp4" />
+      {/* <video controls autostart autoPlay src={Video} type="video/mp4" /> */}
       <img src="/img/kartons011.jpg" alt="image" />
       <img src="/img/kartons012.jpg" alt="image" />
       <img src="/img/kartons013.jpg" alt="image" />
