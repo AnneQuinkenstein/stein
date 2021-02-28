@@ -19,8 +19,13 @@ const App = () => {
         <img src="/img/kartons011.jpg" alt="Kartonsanordnung 1" />
         <img src="/img/kartons012.jpg" alt="Kartonsanordnung 1" />
         <img src="/img/kartons013.jpg" alt="Kartonsanordnung 1" />
+      </div>
+      <h1> weitere </h1>
+      <div className="App">       
         <img src="/img/00_grab.jpg" alt="Grab" />
-        
+        <img src="/img/Sommer5.jpg" alt="Grab im Sommer" />
+        <img src="/img/Sommer6.jpg" alt="Grab im Sommer" />
+        <img src="/img/Sommer7.jpg" alt="Grab im Sommer" />        
       </div>
     </>
   );

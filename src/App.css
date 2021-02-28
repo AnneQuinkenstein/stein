@@ -17,7 +17,8 @@ h1 {
 
 img {
   padding: 2%;
-  width: min-content;
+  max-width: min-content;
   height: min-content;
+  max-height: 50vh;
   margin: auto;
 }
