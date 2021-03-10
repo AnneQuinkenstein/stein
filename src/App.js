@@ -3,19 +3,21 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <h1>Steine </h1>
-      <a href="https://www.obernkirchener-sandstein.de/de/farben"> 
-        Obernkirchener Sandstein
-      </a>
-      <br/>
-      <a href="https://www.obernkirchener-sandstein.de/de/bearbeitete-oberflaechen">
-        Oberflächenbearbeitungen
-      </a>
-      <p>Textvorschläge: </p>
-      <p>Vieles bleibt offen.</p>
-      <p>Feli - Architektin etc. </p>
-
-
+      <div className="links">
+        <div>
+          <a href="https://www.obernkirchener-sandstein.de/de/farben">
+            Obernkirchener Sandstein
+          </a>
+          <br />
+          <a href="https://www.obernkirchener-sandstein.de/de/bearbeitete-oberflaechen">
+            Oberflächenbearbeitungen
+          </a>
+        </div>
+        <div>
+          <p>Vieles bleibt offen.</p>
+          <p>Feli - Architektin etc. </p>
+        </div>
+      </div>
       <h1>Kartons eher seitlich </h1>
       <div className="App">
         <img src="/img/kartons02.jpg" alt="Kartonsanordnung 2" />
