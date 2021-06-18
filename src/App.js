@@ -4,17 +4,41 @@ const App = () => {
   return (
     <>
       <div className="links">
-        <div>
-          <a href="https://www.obernkirchener-sandstein.de/de/farben">
-            Obernkirchener Sandstein
-          </a>
-          <br />
-          <a href="https://www.obernkirchener-sandstein.de/de/bearbeitete-oberflaechen">
-            Oberflächenbearbeitungen
-          </a>
+        <div className="links">
+          <tr>
+            <td>
+              <h2>Beschaffenheit Steine</h2>
+            </td>
+            <br />
+            <td>
+              <a href="https://www.obernkirchener-sandstein.de/de/farben">
+                Obernkirchener Sandstein
+              </a>
+            </td>
+            <br />
+            <td>
+              <a href="https://www.obernkirchener-sandstein.de/de/bearbeitete-oberflaechen">
+                Oberflächenbearbeitungen
+              </a>
+            </td>
+          </tr>
         </div>
         <div>
-          <img src="/img/Schrift_Grabstein.png" alt="Schrift Gramstein" />
+          <h2>Schrift</h2>
+          <div className="imgcontainer">
+            <img src="/img/font1.jpg" alt="Schrift Counterplaning Buch" />
+            <img src="/img/font2.jpg" alt="Schrift Kitchen Buch" />
+          </div>
+          <div className="imgcontainer">
+            <img src="/img/steinarchitekt.jpg" alt="Schrift Nachbargrabstein" />
+            <img src="/img/Schrift_Grabstein.png" alt="Schrift Grabstein" />
+          </div>
+          <p>
+            Die Schrift Noah habe ich nicht kostenfrei herunterladen können.{" "}
+      Ich habe eine ähnliche gefunden, Aron Grotesque. 
+            Sie hat nur einen komischen Schnörkel beim st, den ihr euch
+            wegdenken müsst.
+          </p>
         </div>
       </div>
       <h1>Kartons eher seitlich </h1>
@@ -28,12 +52,12 @@ const App = () => {
         <img src="/img/kartons026.jpg" alt="Kartonsanordnung 2" />
         {/* <video controls autostart autoPlay src="https://app.box.com/s/rv1ek3chvh47w8gwn1jfc5c3869yszxe" type="video/mp4" /> */}
       </div>
-      <h1>Kartons eher hinten </h1>
+      {/* <h1>Kartons eher hinten </h1>
       <div className="App">
         <img src="/img/kartons011.jpg" alt="Kartonsanordnung 1" />
         <img src="/img/kartons012.jpg" alt="Kartonsanordnung 1" />
         <img src="/img/kartons013.jpg" alt="Kartonsanordnung 1" />
-      </div>
+      </div> */}
       <h1> weitere </h1>
       <div className="App">
         <img src="/img/00_grab.jpg" alt="Grab" />

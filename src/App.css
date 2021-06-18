@@ -8,11 +8,11 @@ h1 {
   text-align: center;
 }
 
-.links {
+.links{
   display: flex; 
   flex-wrap: wrap;
   justify-content: space-around;
-  align-content: flex-start;
+  align-content: center;
 }
 
 .App {
@@ -28,4 +28,8 @@ img {
   height: min-content;
   max-height: 50vh;
   margin: auto;
+}
+
+.imgcontainer {
+  display: flex; 
 }
