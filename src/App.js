@@ -14,8 +14,7 @@ const App = () => {
           </a>
         </div>
         <div>
-          <p>Vieles bleibt offen.</p>
-          <p>Feli - Architektin etc. </p>
+          <img src="/img/Schrift_Grabstein.png" alt="Schrift Gramstein" />
         </div>
       </div>
       <h1>Kartons eher seitlich </h1>
