@@ -3,7 +3,7 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <div className="links">
+     
         <div className="links">
           <tr>
             <td>
@@ -23,13 +23,11 @@ const App = () => {
             </td>
           </tr>
         </div>
-        <div>
+        <div className="links">
           <h2>Schrift</h2>
           <div className="imgcontainer">
             <img src="/img/font1.jpg" alt="Schrift Counterplaning Buch" />
             <img src="/img/font2.jpg" alt="Schrift Kitchen Buch" />
-          </div>
-          <div className="imgcontainer">
             <img src="/img/steinarchitekt.jpg" alt="Schrift Nachbargrabstein" />
             <img src="/img/Schrift_Grabstein.png" alt="Schrift Grabstein" />
           </div>
@@ -40,7 +38,7 @@ const App = () => {
             wegdenken müsst.
           </p>
         </div>
-      </div>
+    
       <h1>Kartons eher seitlich </h1>
       <div className="App">
         <img src="/img/kartons02.jpg" alt="Kartonsanordnung 2" />
